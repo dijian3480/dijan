@@ -25,7 +25,10 @@ export const HTML_TEMPLATE = /* html */ `
     <style>${componentsCssContent}</style>
     <style>${formsCssContent}</style>
     <style>${responsiveCssContent}</style>
-    
+    <script>
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+    </script>
+    <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
     <div class="container">
